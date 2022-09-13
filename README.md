@@ -11,6 +11,3 @@ A decentralised auction application.
 - bidders can bid the maximum they are willing to pay, but only pay the amount of the second highest bid + 0.01 eth, the contract will autmotically id up to the given max bid amount.
 - the highestBindingBid s the selling price and the highestBidder is the person who won the auction.
 - After the auction ends, the owner gets the highestBindingBid and everybody else gets thier bid amount returned.
-
-
-
