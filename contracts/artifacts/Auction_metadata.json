@@ -6,7 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_eoa",
+						"type": "address"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
@@ -170,11 +176,11 @@
 	},
 	"sources": {
 		"contracts/Auction.sol": {
-			"keccak256": "0x28d08f432dde22ab2fbdce76c2f2b2fe71ce4f7c2588de5a76cbdff358bd35bf",
+			"keccak256": "0x905bbdf543d343dd54c62a3d2476dd72ba1d238a97bb6b79c4b7050caf36ec41",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://ae5c4ba1783af20ab029994335b4e815442350bdef60e431c64dae3da2efbd01",
-				"dweb:/ipfs/QmPc39KFJgAWaZGbCbvgDgwq2nUo3veGSsrnHHstNkaJHA"
+				"bzz-raw://e70f837a7f94d1339a9ff412ffc7ea03874ed384df4ce43c00ce57e1786dd5ab",
+				"dweb:/ipfs/QmPyKQcVsTtyabw7Q9NVjvhX5SP8KieMJym9UMVKmBRQrS"
 			]
 		}
 	},

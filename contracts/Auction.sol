@@ -23,8 +23,9 @@ contract Auction{
 
     uint bidIncrement;
 
-    constructor(){
-        owner = payable(msg.sender);
+    constructor(address _eoa){
+        owner = payable(_eoa);
+        //owner = payable(msg.sender);
         auctionState = State.Running;
         startBlock = block.number;
         // 1 week is approximately 40320 blocks at 15 seconds per block

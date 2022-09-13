@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "deployAuction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "deployedAuctions",
+				"outputs": [
+					{
+						"internalType": "contract Auction",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ownerCreator",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AuctionManager.sol": "AuctionManager"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Auction.sol": {
+			"keccak256": "0x905bbdf543d343dd54c62a3d2476dd72ba1d238a97bb6b79c4b7050caf36ec41",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e70f837a7f94d1339a9ff412ffc7ea03874ed384df4ce43c00ce57e1786dd5ab",
+				"dweb:/ipfs/QmPyKQcVsTtyabw7Q9NVjvhX5SP8KieMJym9UMVKmBRQrS"
+			]
+		},
+		"contracts/AuctionManager.sol": {
+			"keccak256": "0x48e674f409b4b376c3aedcd90ec2bbc1b87f1a9ec42a415fbc05fbb31a1c8c40",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://7bf5a89c25335ea354f00cb8316355c804bbc885c207b289883830c96dc382f1",
+				"dweb:/ipfs/QmT6aqnH7yZWaB6AmrZ9i3yKH1xH6HAFM7VNv5D5EuPSeP"
+			]
+		}
+	},
+	"version": 1
+}

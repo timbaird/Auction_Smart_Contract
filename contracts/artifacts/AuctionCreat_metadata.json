@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "deployAuction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "deployedAuctions",
+				"outputs": [
+					{
+						"internalType": "contract Auction",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ownerCreator",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AuctionManager.sol": "AuctionCreat"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Auction.sol": {
+			"keccak256": "0x905bbdf543d343dd54c62a3d2476dd72ba1d238a97bb6b79c4b7050caf36ec41",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e70f837a7f94d1339a9ff412ffc7ea03874ed384df4ce43c00ce57e1786dd5ab",
+				"dweb:/ipfs/QmPyKQcVsTtyabw7Q9NVjvhX5SP8KieMJym9UMVKmBRQrS"
+			]
+		},
+		"contracts/AuctionManager.sol": {
+			"keccak256": "0xa390b9e0b924f6facd35892619ea482ad0ec4a4cfae99839a6b24218bfa948e1",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a11b218f1e0741dd76e6bcda7bee6d8ad1fb74e095ea5343156018ba3bab8379",
+				"dweb:/ipfs/QmSersctdViY2K2ors3PnoYLTvQbY47vtKzFE4YUf2zy2g"
+			]
+		}
+	},
+	"version": 1
+}
